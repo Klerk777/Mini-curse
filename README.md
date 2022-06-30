@@ -1,2 +1,2 @@
-# Mini-curse
-Mini-curse GoIT
+# Hello procect
+Traning project
