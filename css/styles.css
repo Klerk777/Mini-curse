@@ -1,10 +1,30 @@
 html,
 body {
   height: 100%;
+  background-color: rgb(84, 105, 105);
 }
-.main-page {
+
+.logo {
+  text-decoration: none;
+  color: rgb(13, 13, 14);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-accent {
+  color: dodgerblue;
+  /* color: #2196F3; */
+}
+
+.section {
   background-color: teal;
   height: 100%;
+  margin: 0 52px;
+}
+.main-page {
+  /* background-color: teal;
+  height: 100%; */
   display: flex;
   flex-direction: column;
 }
@@ -15,8 +35,35 @@ body {
   margin-top: 64px;
 }
 .HandWavingImg {
-  /* width: 256px;
-  height: 256px; */
   align-self: center;
-  margin-top: 100px;
+  margin-top: 80px;
+}
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+.social-links .link:visited {
+  color: green;
+}
+
+p {
+  background-color: white;
+  color: white;
+}
+/* Яким буде колір тексту абзаців? */
+.text {
+  color: blue;
+  background-color: orange;
+}
+
+.text {
+  color: rgb(255 0 255);
 }
